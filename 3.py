@@ -4,6 +4,7 @@ import hashlib
 from gmssl.sm4 import CryptSM4, SM4_ENCRYPT, SM4_DECRYPT
 
 # 这里添加注释内容
+print("1111111")
 class JinYiAPI:
     def __init__(self):
         self.sm4_key_hex = "31353438343932353932303333393539"
